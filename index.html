@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blaster Team Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <style>
+    .team-member {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .team-member h3 {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>BlasterTeam</h1>
+
+  <div class="owl-carousel">
+    <div class="team-member">
+      <img src="member1.jpg" alt="Member 1">
+      <h3>Wawan</h3>
+      <p>senpai</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Candra</h3>
+      <p>kucan</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Rafi</h3>
+      <p>youngsam</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Wildan</h3>
+      <p>samdun</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Andi</h3>
+      <p>ba'a</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Ridwan</h3>
+      <p>endeh</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Sapar</h3>
+      <p>udin</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Hadi</h3>
+      <p>edi</p>
+    </div>
+    <div class="team-member">
+      <img src="member2.jpg" alt="Member 2">
+      <h3>Fajar</h3>
+      <p>abaw</p>
+    </div>
+    <!-- Tambahkan div .team-member dan isinya untuk setiap anggota Blaster Team -->
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            loop: false
+          }
+        }
+      })
+    })
+  </script>
+</body>
+</html>
